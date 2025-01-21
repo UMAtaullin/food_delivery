@@ -9,5 +9,8 @@ def print_order(order):
   print("Thanks for your order!")
   return
 
-order = get_order()
-print_order(order)
+def printing_order():
+  order = get_order()
+  print_order = print_order(order)
+  return print_order
+    
