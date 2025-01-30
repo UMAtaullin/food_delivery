@@ -1,0 +1,14 @@
+{% extends "base.html" %}
+{% block title %}Choose drink{% endblock %}
+{% block content %}
+<form action="/order" method="post">
+    <select name="drink">
+        <option value="">- Choose drink -</option>
+        <option value="Tea">Tea</option>
+        <option value="Water">Water</option>
+        <option value="Cola">Cola</option>  
+        <option value="Pepsi">Pepsi</option>   
+    </select>
+    <input type="submit" value="Submit">
+</form>
+{% endblock %}
