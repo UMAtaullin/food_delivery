@@ -1,14 +1,26 @@
 {% extends "base.html" %}
-{% block title %}Choose drink{% endblock %}
 {% block content %}
-<form action="/order" method="post">
-    <select name="drink">
-        <option value="">- Choose drink -</option>
-        <option value="Tea">Tea</option>
-        <option value="Water">Water</option>
-        <option value="Cola">Cola</option>  
-        <option value="Pepsi">Pepsi</option>   
-    </select>
+    <form action="/order" method="post">
+        <input type="text" name="name" placeholder="ENTER NAME">
+        <select name="drink">
+            <option value="">- Choose drink -</option>
+            <option value="Tea">Tea</option>
+            <option value="Water">Water</option>
+            <option value="Cola">Cola</option>  
+            <option value="Pepsi">Pepsi</option>   
+        </select>
+        <select name="dishes">
+            <option value="">- Choose dishes -</option>
+            <option value="Rice">Rice</option>
+            <option value="Spagetty">Spagetty</option>
+            <option value="Potato">Potato</option>    
+        </select>
+        <select name="garnishes">
+            <option value="">- Choose garnishes -</option>
+            <option value="Fish">Fish</option>
+            <option value="Meat">Meat</option>
+            <option value="Vegetables">Vegetables</option>    
+        </select>
     <input type="submit" value="Submit">
 </form>
 {% endblock %}

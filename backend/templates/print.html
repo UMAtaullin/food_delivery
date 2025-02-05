@@ -1,8 +1,10 @@
 {% extends "base.html" %}
-{% block title %}Your order{% endblock %}
 {% block content %}
-<h1>Thanks for your order!</h1>
-<p>Your drink: <strong>{{drink}}</strong></p>
+<h1>Hello {{new_order["name"] }}!</h1>
+<h2>Here is your order:</h2>
+<p>Drink: <strong>{{ new_order["drink"] }}</strong></p>
+<p>Dishes: <strong>{{ new_order["dishes"] }}</strong></p>
+<p>Garnishes: <strong>{{ new_order["garnishes"] }}</strong></p>
 
 <form action="/order">
     <input type="submit" value="New order" />

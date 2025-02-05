@@ -1,0 +1,32 @@
+[
+  {
+    "dishes": [
+      "Rice"
+    ],
+    "drink": "Tea",
+    "garnishes": [
+      "Fish"
+    ],
+    "name": "Ural"
+  },
+  {
+    "dishes": [
+      "Rice"
+    ],
+    "drink": "Tea",
+    "garnishes": [
+      "Fish"
+    ],
+    "name": "Ural"
+  },
+  {
+    "dishes": [
+      "Spagetty"
+    ],
+    "drink": "Water",
+    "garnishes": [
+      "Meat"
+    ],
+    "name": "Ural"
+  }
+]
